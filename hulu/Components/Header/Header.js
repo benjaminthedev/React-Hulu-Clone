@@ -7,7 +7,7 @@ function Header() {
         <>
         <div>
              <HeaderItem title='HOME' Icon={HomeIcon} /> 
-             {/* This icon causes an issue and I need to sort it. */}
+             {/* This icon causes an issue and I need to sort it.. */}
              {/* <HeaderItem title='TRENDING' Icon={LightingBoltIcon} />  */}
              <HeaderItem title='VERIFIED' Icon={BadgeCheckIcon} /> 
              <HeaderItem title='COLLECTIONS' Icon={CollectionIcon} />  
