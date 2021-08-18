@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../Components/Header/Header'
+import Nav from '../Components/Nav/Nav'
 
 
 
@@ -15,6 +16,8 @@ export default function Home() {
       <Header />
 
       {/* Nav */}
+      <Nav />
+
 
       {/* Results */}
 

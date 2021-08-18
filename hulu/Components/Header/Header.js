@@ -4,8 +4,8 @@ import {HomeIcon, LightingBoltIcon, BadgeCheckIcon, CollectionIcon, SearchIcon, 
 
 function Header() {
     return (
-        <>
-        <div>
+        <header className="flex flex-col sm:flex-row m-1 justify-between items-center h-auto">
+        <div className="flex flex-grow justify-evenly max-w-2xl">
              <HeaderItem title='HOME' Icon={HomeIcon} /> 
              {/* This icon causes an issue and I need to sort it.. */}
              {/* <HeaderItem title='TRENDING' Icon={LightingBoltIcon} />  */}
@@ -14,17 +14,15 @@ function Header() {
              <HeaderItem title='SEARCH' Icon={SearchIcon} /> 
              <HeaderItem title='ACCOUNT' Icon={UserIcon} /> 
         </div>
-        <header className="">
-            <h1>This is the header</h1>
-            <Image
-            src="/hulu-white.png" 
-            alt="Hulu Logo"
-            width={200}
-            height={200} 
-            className="object-contain"
-            />
+            
+        <Image
+        src="/hulu-white.png" 
+        alt="Hulu Logo"
+        width={150}
+        height={150} 
+        className="object-contain"
+        />
         </header>
-        </>
     )
 }
 
