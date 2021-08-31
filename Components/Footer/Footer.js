@@ -7,7 +7,7 @@ const Footer = () => {
             target="_blank"
             >
                 BenjaminTheDev
-            </a>
+            </a> 
         </div>
     )
 }
